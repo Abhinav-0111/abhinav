@@ -1,0 +1,109 @@
+.header {
+    height: 145px;
+    width: 100%;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 475px auto 550px;
+    align-items: center;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    z-index: 999;
+}
+
+.left_header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 40px;
+}
+
+.left_header > span {
+    cursor: pointer;
+    font-family: "Futura PT", sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 2px;
+    font-weight: 550;
+    color: #231f20;
+    transition: all linear 0.1s;
+}
+
+.left_header > span:hover {
+    color: #e5662e;
+}
+
+.middle_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle_header > a {
+    text-decoration: none;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.heading > h2 {
+    font-family: "Futura PT", sans-serif;
+    font-size: 32px;
+    font-weight: 550;
+    color: #231f20;
+    letter-spacing: 2px;
+}
+
+.heading > p {
+    font-family: "Futura PT", sans-serif;
+    font-size: 11.5px;
+    font-weight: 550;
+    color: #a8aaad;
+    letter-spacing: 3px;
+    margin-top: 2px;
+}
+
+.right_header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+}
+
+.right_header > span {
+    cursor: pointer;
+    font-family: "Futura PT", sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 2px;
+    font-weight: 550;
+    color: #231f20;
+    transition: all linear 0.1s;
+}
+
+.right_header > span:hover {
+    color: #e5662e;
+}
+
+.right_header > button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: #c15627;
+    font-family: "Futura PT", sans-serif;
+    font-size: 13.5px;
+    font-weight: 550;
+    letter-spacing: 2px;
+    color: white;
+    transition: all ease-in-out 0.3s;
+}
+
+.right_header > button:hover {
+    background-color: #e5662e;
+}

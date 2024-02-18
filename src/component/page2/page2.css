@@ -1,0 +1,105 @@
+@font-face {
+    font-family: abhi;
+    src: url("../../assets/font/F37Caslon-RegularDisplay.otf");
+}
+
+.page2 {
+    height: 100vh;
+    width: 100%;
+    /* background-color: black; */
+    display: flex;
+    /* align-items: center; */
+    overflow: hidden;
+}
+
+.page2_left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: white;
+    width: 50%;
+    height: 50%;
+    padding-top: 140px;
+}
+
+.top_heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top_heading > p {
+    font-size: 22px;
+    font-family: "Futura PT", sans-serif;
+    color: #827d4e;
+    letter-spacing: 2px;
+    margin-bottom: 28px;
+}
+
+.top_heading > h2 {
+    font-size: 100px;
+    color: #274a2e;
+    font-family: abhi;
+    width: 500px;
+    letter-spacing: 2px;
+    line-height: 100px;
+    text-align: center;
+    font-weight: 100;
+}
+
+.bottom_heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom_heading > p {
+    width: 580px;
+    font-size: 19px;
+    font-family: abhi;
+    font-weight: 100;
+    color: #827d4e;
+    letter-spacing: 2px;
+    text-align: center;
+    line-height: 28px;
+    margin-top: 40px;
+}
+
+.bottom_heading > button {
+    margin-top: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 35px;
+    border-radius: 20px;
+    background-color: #c15627;
+    font-family: "Futura PT", sans-serif;
+    font-size: 13.5px;
+    font-weight: 550;
+    letter-spacing: 2px;
+    color: white;
+    transition: all ease-in-out 0.3s;
+    display: flex;
+    align-items: center;
+}
+
+.bottom_heading > button:hover {
+    background-color: #e5662e;
+}
+
+.page2_right {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+}
+
+.img_container {
+    width: 100%;
+    height: 79%;
+    overflow: hidden;
+    border-top-left-radius: 45%;
+    margin-top: 90px;
+}
